@@ -1,0 +1,10 @@
+<script>
+function myFunction() {
+    var x = document.getElementById("myDIV");
+    if (x.innerHTML === " ") {
+        x.innerHTML = "Please contact Kyung Kim (PI) at kkim2@niu.edu for the invitation code required in the account registration.";
+    } else {
+        x.innerHTML = " ";
+    }
+}
+</script>
